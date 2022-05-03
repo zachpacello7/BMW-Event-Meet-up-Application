@@ -1,0 +1,21 @@
+<%- include('../partials/header.ejs')%>
+<form method ="POST" action ="/bmw/<%=bmw.id%>?_method=PUT"> 
+<br><label for="topic">Topic</label>
+    <input type="text" id="topic" name="topic" value= "<%=bmw.topic%>" required><br>
+    <br><label for="name">Title</label>
+    <input type="text" id="name" name="name" value="<%=bmw.name%>" required><br>
+    <br><label for = "details" >Details</label>
+    <input type="text" name="details" id="details" value="<%=bmw.details%>" required><br>
+    <br><label for="where">Where</label>
+    <input type="text" id="where" name="where" value="<%=bmw.where%>" required><br>
+    <br><label for ="date">When</label>
+    <input type="date" name ="date" id="date" value="<%=bmw.date%>" required><br>
+    <br><label for ="startTime" >Start</label>
+    <input type="time" name="startTime" id="startTime" value="<%=bmw.startTime%>"required><br>
+    <br><label for ="endTime" >End</label>
+    <input type="time" id ="endTime" name="endTime" value="<%=bmw.endTime%>"required><br>
+    <br> <label for ="image" >Img URL</label>
+    <input type="url"  id ="image" name="image" value="<%=bmw.image%>"required><br><br>
+    <button id="submit" class="homePage3">Create Connection</button><br><br>
+</form> 
+    <%- include('../partials/footer.ejs')%>
