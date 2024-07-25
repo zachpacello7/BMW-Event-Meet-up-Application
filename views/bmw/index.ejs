@@ -1,0 +1,28 @@
+<%- include('../partials/header.ejs')%>
+    <%for(let j=0; j < topics.length; j++){ %>
+        <h1 class="beamerFans2">
+            <%=topics[j]%>
+        </h1>
+        <fieldset>
+            <%for(let i=0; i < data.connections.length; i++){ %>
+                <%if(data.connections[i].topic== topics[j]){%>
+                    <div class="classicShow">
+                        <img alt="nothing" class="bmwLogoBody1" src=<%=data.connections[i].image%> height="80">
+                        <div class="classics">
+                            <h2 class="classicBeam"><a href="/bmw/<%=data.connections[i].id%>">
+                                    <%=data.connections[i].name%>
+                                </a> </h2>
+                            <h3 class="classicBeam">
+                                <%=data.connections[i].details%>
+                            </h3>
+                        </div>
+                    </div>
+                    <hr class="hr1">
+                    <%}%>
+                        <%}%>
+        </fieldset>
+        <%}%>
+        <div class ="theFooter">
+            <footer class = "footer4">
+                &copy; Beamer Fans,<br> The Best in the Biz
+            </footer>

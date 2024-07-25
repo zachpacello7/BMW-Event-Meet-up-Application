@@ -1,15 +1,15 @@
 const express = require('express');
 const morgan = require('morgan');
 const methodOverride = require('method-override');
-const bmwRoutes = require("./ITIS 5166/Routes/bmwRoutes");
-const staticRoutes = require("./ITIS 5166/Routes/staticRoutes");
+const bmwRoutes = require("./Routes/bmwRoutes");
+const staticRoutes = require("./Routes/staticRoutes");
 const mongoose = require("mongoose");
 const session = require("express-session");
 const MongoStore = require("connect-mongo");
 const flash = require("connect-flash");
 const app = express();
 
-let port = 3000;
+let port = 8080;
 let host = "localhost";
 
 app.set("view engine","ejs");
@@ -35,6 +35,8 @@ app.use(session({
 app.use(flash());
 
 app.use((req, res, next)=>{
+    console.log(res.locals.user)
+    console.log(res.locals.users)
     res.locals.user = req.session.user||null;
     res.locals.users = req.session.hostName|| null;
     res.locals.successMessages= req.flash("Success");

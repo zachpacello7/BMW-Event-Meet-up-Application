@@ -1,0 +1,419 @@
+
+.li{
+    bottom:100px;
+    float:right;
+    padding-top: 10px;
+   list-style-type: none;
+}.li4{
+    float:right;
+    padding-bottom: 50px;
+    top:50px;
+   list-style-type: none;
+}
+.li1{
+    float: right;
+    list-style-type: none;
+ }
+ .li2{
+    list-style-type: none;
+    font-size: x-large;
+ }
+ .tableProfile{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+ }
+ .tableProfile1{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+ }
+ .tableProfile1 th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+ }
+ .people{
+     position:relative;
+     float:right;
+     padding-right: 125px;
+     padding-bottom: 20px;
+ }
+ .formRsvp{
+     position:relative;
+     top:50px;
+     left:200px;
+ }
+ .tableProfile th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+ }
+ .tr{
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+a{
+    display:block;
+    color:white;
+    text-decoration: none;
+}
+.profileName{
+    text-align: center;
+}
+.successMessages{
+    position:absolute;
+    top:170px;
+    background-color: green;
+    color:white;
+    text-align: center;
+    width:100%;
+}
+.errorMessages{
+    position:absolute;
+    top:170px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    width:100%;
+}
+li a:hover{
+    background-color: black ;
+}
+
+button.homePage2:hover{
+    background-color: black;
+}
+button.homePage3:hover{
+    background-color: black;
+}
+.logo{
+    max-width:25%;
+    float:top;
+    margin-right:auto;
+    margin-bottom:10px;
+}
+.navigationBar{
+    margin-left: 67%;
+    position: absolute;
+    bottom:70px;
+}
+.homePage{
+    background-color:blue;
+    color:white;
+    padding:14px 28px;
+    float:right;
+    border: 2px solid black;
+}
+
+.theNav{
+    padding-right: 10px;
+}
+.about{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 40px;
+}
+.homePage2{
+    background-color:blue;
+    color:white;
+    padding:16px 30px;
+    align-content: center;
+    top:100px;
+    float: right;
+}
+.tableProfile td{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+td{
+    text-align: left;
+}
+ .tr{
+    background-color: blue
+}
+.homePage3{
+    background-color:blue;
+    color:white;
+    padding:16px 30px;
+
+}
+.center{
+    text-align: center;
+}
+.nav{
+    background-color: white;
+    position:relative;
+    height: 170px;
+}
+hr.hr{
+    border: 1px solid black;
+}
+hr.hr1{
+    border: 1px solid blue;
+}
+.homePage1{
+    position:absolute;
+    display:block;
+    margin-right:auto;
+    background-color: blue;
+    color:white;
+    padding:12px 30px;
+    list-style-type: none;
+}
+.bmwLogo{
+    max-width:40%;
+    float:top;
+    margin-left:10%;
+}
+.logoImages{
+    float:top;
+}
+.bmwLogo1{
+    max-width:40%;
+    float:top;
+    margin-left:15%;
+}
+.bmwLogoBody{
+    position: absolute;
+    display:block;
+    margin-right: auto;
+}
+.bmwLogoBody3{
+    position: absolute;
+    display:block;
+    margin-right: auto;
+    top:700px;
+    padding-left: 15px;
+}
+.bmwLogoBody4{
+    position: absolute;
+    display:block;
+    margin-right: auto;
+    top:940px;
+    padding-left: 15px;
+}
+.bmwLogoBody5{
+    position: absolute;
+    display:block;
+    margin-right: auto;
+    top: 1055px;
+    padding-left: 15px;
+}
+.bmwLogoBody6{
+    position: absolute;
+    display:block;
+    margin-right: auto;
+    top: 1200px;
+    padding-left: 15px;
+}
+.bmwLogoBody1{
+    position: absolute;
+    display:block;
+    margin-right: auto;
+    top:25px;
+    padding-left: 15px;
+}
+.bmwLogoBody2{
+    position: absolute;
+    display:block;
+    margin-right: auto;
+    top:590px;
+    padding-left: 15px;
+}
+.slogan{
+    text-align: left;
+}
+.bmwCars{
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.theFooter{
+    padding-top:20px;
+}
+.theFooter1{
+position: relative;
+
+}
+.theFooter2{
+    padding-top: 120px;
+    
+}
+.theFooter3{
+    padding-top: 90px;
+    
+    }
+.inline{
+    display: inline-block;
+}
+.bmwCars1{
+   margin-right: auto;
+    position: relative;
+    bottom:120px;
+}
+.header{
+    text-align: center;
+    padding-top: 30px;
+}
+.beamerFans{
+    text-align: center;
+    top:300px;
+    color:blue;
+}
+.beamerFans4{
+    text-align: center;
+    top:300px;
+}
+.beamerFans1{
+    text-align: center;
+    padding-top: 100px;
+    color:white;
+}
+.beamerFans2{
+    text-align: center;
+    padding-top: 20px;
+    color:white;
+}
+.top{
+    display: block;
+    padding-left: 10px;
+}
+.description{
+    text-align: center;
+    padding-top: 150px;
+}
+.newDescription{
+    text-align: center;
+    font-size: x-large;
+}
+.description1{
+    text-align: center;
+}
+.desc{
+    text-align: center;
+}
+
+footer.footer1{
+    position:relative;
+    padding-bottom: 10px;
+    top:10px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: large;
+}
+footer.footer2{
+    position:relative;
+    padding-bottom: 10px;
+    top:150px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: large;
+}
+footer.footer3{
+    position:relative;
+    padding-bottom: 10px;
+    top:690px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: large;
+}
+footer.footer4{
+    position:relative;
+    padding-bottom: 10px;
+    top: 225px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: large;
+}
+footer.footer5{
+    position:relative;
+    padding-bottom: 10px;
+    top:875px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: large;
+}
+footer.footer6{
+    position:relative;
+    padding-bottom: 10px;
+    top:740px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: large;
+}
+footer.footer7{
+    position:relative;
+    padding-bottom: 10px;
+    top:510px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: large;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.classicShow{
+    position:relative;
+    display:block;
+}
+.classics{
+    display:block;
+    padding-top: 10px;
+}
+.classicBeam{
+    text-align: center;
+}
+.details{
+    text-align: center;
+    padding-top: 130px;
+}
+.eventDescription{
+    text-align: center;
+    font-size: x-large;
+}
+.welcomeMessage{
+    text-align: center;
+    color:black;
+    font-size: x-large;
+}
+.fieldset{
+    align-items: center;
+    position: absolute;
+    max-width:max-content;
+    margin-right: 39%;
+    margin-left: 39%;
+    padding-top: 30px;
+    height: 60%;
+}
+.fieldset1{
+    align-items: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+
+}
+input{
+    width:50%;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    position: absolute;
+}
+label{
+    margin-right: 15%;
+    margin-left: 15%;
+    position: absolute;
+}

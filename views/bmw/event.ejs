@@ -1,0 +1,54 @@
+<%- include('../partials/header.ejs')%>
+    <div class="bmwCars1">
+        <%if(user==bmw.hostName._id){%>
+            <form>
+                <button class="homePage2" type="submit" formmethod="GET"
+                    formaction="/bmw/<%=bmw.id%>/edit">Update</button>
+                <button type="submit" class="homePage2" formmethod="POST"
+                    formaction="/bmw/<%=bmw.id%>?_method=DELETE">Delete</button>
+            </form>
+            <%}
+            else{%>
+                        <p class="people">There are <%=size%> people going</p>
+                        <form class="formRsvp">
+                            <button class="homePage2" type="submit" formmethod="POST" name="rsvp" value="yes"
+                                formaction="/beamer/profile/yes">Yes</button>
+                            <button type="submit" class="homePage2" formmethod="POST" name="rsvp" value="no"
+                                formaction="/beamer/profile/no">No</button>
+                            <button type="submit" class="homePage2" formmethod="POST" name="rsvp" value="maybe"
+                                formaction="/beamer/profile/maybe">Maybe</button>
+                        </form>
+                            <%}%>
+    </div>
+    <h1 class="beamerFans1">
+        <%= bmw.name%>
+    </h1>
+    <div class=bmwCars>
+        <img alt="nothing" src="<%=bmw.image %>" height="115">
+    </div>
+
+    <div class="details">
+        <ol>
+            <li class="li2">Hosted by <%=bmw.hostName.firstName%>
+            </li><br>
+            <li class=" li2">
+                    <%=bmw.where%>
+            </li><br>
+            <li class="li2">
+                <%=bmw.date%>
+            </li><br>
+            <li class="li2">
+                Start time: <%=bmw.startTime%>
+            </li>
+            <li class="li2">
+                End Time: <%=bmw.endTime%>
+            </li>
+        </ol>
+    </div>
+    <p class="eventDescription">
+        <%= bmw.details%>
+    </p>
+    <div class ="theFooter">
+        <footer class = "footer7">
+            &copy; Beamer Fans,<br> The Best in the Biz
+        </footer>
