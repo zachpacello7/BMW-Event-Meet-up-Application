@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "660ef5a0bac434a5e8ba91df"
+  },
+  "rsvp": "yes",
+  "author": "Test",
+  "title": "BMW M CS Car Show",
+  "category": "BMW Car Shows",
+  "attendee": "660ecee5dd2fc93f380593cd",
+  "postId": "660ed68e44d46f91a6abd3bb",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712256416183"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1712256416183"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "660ef5adbac434a5e8ba91f2"
+  },
+  "rsvp": "no",
+  "author": "Test",
+  "title": "BMW M SUV Car show",
+  "category": "BMW Car Shows",
+  "attendee": "660ecee5dd2fc93f380593cd",
+  "postId": "660ed6d244d46f91a6abd3c2",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712256429068"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1712256429068"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6616a112b0db933d580b1fbf"
+  },
+  "rsvp": "yes",
+  "author": "Zachary ",
+  "title": "BMW Drag Race",
+  "category": "BMW Drag Races",
+  "attendee": "6616a0fdb0db933d580b1fae",
+  "postId": "660ed53f44d46f91a6abd382",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1712759058358"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1712759058358"
+    }
+  },
+  "__v": 0
+}]
