@@ -1,0 +1,26 @@
+1. Download and install VS Code and NodeJS
+
+2. Open the project in VS Code and change the directory to the project directory, then run npm uninstall bcrypt
+
+4. Next, npm i bcrypt
+
+3. Install MongoDB
+  Windows
+  1.  For windows follow this instruction: https://docs.mongodb.com/v4.4/tutorial/install-mongodb-on-windows/  
+  2.  run MongoDB as a Windows service by typing the following line at the command interpreter with admin previlege: "C:\Program Files\MongoDB\Server\4.4\bin\mongo.exe"
+
+  Mac
+  1. For Mac follow this instruction: https://brew.sh/#install
+  2. install MongoDB by typing the following lines at the terminal: 
+  brew tap mongodb/brew
+  brew install mongodb-community@4.4
+  run MongoDB as a macOS service by typing the following line at the terminal: brew services start mongodb-community@4.4
+
+
+4. Open MongoDB and connect to the local server, then create Database Named "BMW" (Name must match exactly)
+  1.  Create a collection named "beamers" (name must match exactly) and upload the beamers.json to this collection 
+  2.  Create a collection named "rsvps" (name must match exactly) and upload the rsvps.json to this collection 
+  3.  Create a collection named "users" (name must match exactly) and upload the users.json to this collection 
+
+
+5. Run the application by typing in the terminal node app
