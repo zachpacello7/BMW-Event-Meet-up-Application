@@ -69,9 +69,9 @@ exports.profile = (req, res, next) => {
         .catch(err => next(err));
 }
 exports.profileYes = (req, res, next) => {
-    console.log(req.body);
+    console.log("Testing: "+req.session.beamerObject.name);
     let userId = "";
-    rsvp.findOne({ title: req.session.beamerObject.name }, { attendee: req.session.user })
+    rsvp.findOne({attendee: req.session.user, title: req.session.beamerObject.name})
         .then(result => {
             if (result) {
                 console.log(result._id + " ");
@@ -125,7 +125,7 @@ exports.profileYes = (req, res, next) => {
 }
 exports.profileNo = (req, res, next) => {
     console.log(req.body);
-    rsvp.findOne({ title: req.session.beamerObject.name }, { attendee: req.session.user })
+    rsvp.findOne({attendee: req.session.user, title: req.session.beamerObject.name})
         .then(result => {
             if (result) {
                 console.log(result._id + " ");
@@ -178,7 +178,7 @@ exports.profileNo = (req, res, next) => {
 }
 exports.profileMaybe = (req, res, next) => {
     console.log(req.body);
-    rsvp.findOne({ title: req.session.beamerObject.name }, { attendee: req.session.user })
+    rsvp.findOne({attendee: req.session.user, title: req.session.beamerObject.name})
         .then(result => {
             if (result) {
                 console.log(result._id + " ");
